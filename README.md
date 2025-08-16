@@ -1,34 +1,42 @@
-# DIO - Trilha .NET - API e Entity Framework
-www.dio.me
+# TaskMasterApi
+API de gerenciamento de tarefas desenvolvida em **C#**, **.NET 8**, **Entity Framework 9** e **SQL Server**.
 
-## Desafio de projeto
-Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de API e Entity Framework, da trilha .NET da DIO.
+---
+## Projeto
+CRUD completo para tarefas, com filtros por título, data e status. Documentação disponível via **Swagger**.
+
+---
 
 ## Contexto
-Você precisa construir um sistema gerenciador de tarefas, onde você poderá cadastrar uma lista de tarefas que permitirá organizar melhor a sua rotina.
+Construir um sistema gerenciador de tarefas, permitindo criar, atualizar, deletar e listar tarefas, organizando melhor a rotina.
 
-Essa lista de tarefas precisa ter um CRUD, ou seja, deverá permitir a você obter os registros, criar, salvar e deletar esses registros.
+---
 
-A sua aplicação deverá ser do tipo Web API ou MVC, fique a vontade para implementar a solução que achar mais adequado.
+## Classe Principal
 
-A sua classe principal, a classe de tarefa, deve ser a seguinte:
+Classe de tarefa:
 
-![Diagrama da classe Tarefa](diagrama.png)
+![Diagrama da classe Tarefa](docs\imagens\diagrama.png)
 
-Não se esqueça de gerar a sua migration para atualização no banco de dados.
+---
 
 ## Métodos esperados
-É esperado que você crie o seus métodos conforme a seguir:
-
 
 **Swagger**
 
+![Métodos Swagger](docs\imagens\swagger.png)
 
-![Métodos Swagger](swagger.png)
+---
+## Demonstração via Swagger e Testes Unitários
+
+Abaixo estão os vídeos demonstrando a utilização da API e os testes unitários:
+
+- **Swagger:** [Assista aqui](docs/videos/swagger.mp4)
+- **Teste Unitário:** [Assista aqui](docs/videos/testeunitario.mp4)
 
 
+---
 **Endpoints**
-
 
 | Verbo  | Endpoint                | Parâmetro | Body          |
 |--------|-------------------------|-----------|---------------|
@@ -41,8 +49,8 @@ Não se esqueça de gerar a sua migration para atualização no banco de dados.
 | GET    | /Tarefa/ObterPorStatus  | status    | N/A           |
 | POST   | /Tarefa                 | N/A       | Schema Tarefa |
 
-Esse é o schema (model) de Tarefa, utilizado para passar para os métodos que exigirem
-
+---
+## Schema  de Tarefa
 ```json
 {
   "id": 0,
@@ -54,5 +62,32 @@ Esse é o schema (model) de Tarefa, utilizado para passar para os métodos que e
 ```
 
 
-## Solução
-O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+![Schema Tarefa](docs\imagens\Schema.png)
+
+---
+## Estrutura do Projeto
+
+```
+TaskMasterApi/
+│
+├─ Api/Entities/
+├─ Api/Context/
+├─ Api/Controllers/
+├─ Api/Migrations/
+├─ Api/docs/images/
+├─ Api/docs/videos/
+├─ Api/wwwroot/
+├─ Api/appsettings.json
+├─ Api/Program.cs
+├─ Api/TaskMasterApi.csproj
+├─ Test/
+└─ README.md
+
+
+```
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
