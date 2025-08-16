@@ -58,6 +58,8 @@ Classe de tarefa:
 
 ![Schema Tarefa](docs/imagens/Shema_tarefa.png)
 
+![Banco de Dados](docs/imagens/Db.png)
+
 
 
 ---
