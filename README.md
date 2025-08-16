@@ -67,8 +67,6 @@ TaskMasterApi/
 ├─ Api/Controllers/
 ├─ Api/Migrations/
 ├─ Api/docs/images/
-├─ Api/docs/videos/
-├─ Api/wwwroot/
 ├─ Api/appsettings.json
 ├─ Api/Program.cs
 ├─ Api/TaskMasterApi.csproj
