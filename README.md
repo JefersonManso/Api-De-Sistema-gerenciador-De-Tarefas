@@ -32,7 +32,7 @@ Classe de tarefa:
 Abaixo estão os vídeos demonstrando a utilização da API e os testes unitários:
 
 - **Swagger:** [Assista aqui](docs\videos\swagger.mp4)
-- **Teste Unitário:** [Assista aqui](docs/videos/testeunitario.mp4)
+- **Teste Unitário:** [Assista aqui](docs\videos\testeunitario.mp4)
 
 
 ---
