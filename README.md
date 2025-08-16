@@ -45,16 +45,20 @@ Classe de tarefa:
 ## Schema  de Tarefa
 ```json
 {
-  "id": 0,
-  "titulo": "string",
-  "descricao": "string",
-  "data": "2022-06-08T01:31:07.056Z",
+  "id": 1,
+  "titulo": "Estudar",
+  "descricao": "C#",
+  "data": "2025-08-15T19:33:37.682",
   "status": "Pendente"
 }
 ```
 
 
 ![Schema Tarefa](docs/imagens/Schema.png)
+
+![Schema Tarefa](docs/imagens/Shema_tarefa.png)
+
+
 
 ---
 ## Estrutura do Projeto
