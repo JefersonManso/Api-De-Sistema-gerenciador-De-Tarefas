@@ -16,7 +16,7 @@ Construir um sistema gerenciador de tarefas, permitindo criar, atualizar, deleta
 
 Classe de tarefa:
 
-![Diagrama da classe Tarefa](docs\imagens\diagrama.png)
+![Diagrama da classe Tarefa](docs/imagens/diagrama.png)
 
 ---
 
@@ -24,7 +24,7 @@ Classe de tarefa:
 
 **Swagger**
 
-![Métodos Swagger](docs\imagens\swagger.png)
+![Métodos Swagger](docs/imagens/swagger.png)
 
 ---
 
@@ -54,7 +54,7 @@ Classe de tarefa:
 ```
 
 
-![Schema Tarefa](docs\imagens\Schema.png)
+![Schema Tarefa](docs/imagens/Schema.png)
 
 ---
 ## Estrutura do Projeto
